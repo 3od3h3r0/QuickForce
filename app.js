@@ -75,4 +75,6 @@ app.get('/setup', function(req, res) {
   }
 });
 
+const PORT = process.env.PORT || 5000;
 app.listen(process.env.PORT || 5000);
+console.log("Started on PORT: " + PORT);
