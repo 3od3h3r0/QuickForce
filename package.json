@@ -2,7 +2,7 @@
   "name": "quick-force",
   "version": "0.0.1",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "engines": {
     "node": "11.6.x"
